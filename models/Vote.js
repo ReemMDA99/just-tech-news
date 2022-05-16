@@ -10,6 +10,7 @@ Vote.init(
         primaryKey: true,
         autoIncrement: true
       },
+      
       // What needs to go here?
       user_id: {
         type: DataTypes.INTEGER,
@@ -19,6 +20,7 @@ Vote.init(
           key: 'id'
         }
       },
+      
       post_id: {
         type: DataTypes.INTEGER,
         allowNull: false,
