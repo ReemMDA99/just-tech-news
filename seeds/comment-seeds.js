@@ -2,139 +2,139 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'Nunc rhoncus dui vel sem.',
+    comment_text: 'My post 1',
     user_id: 6,
     post_id: 1
   },
   {
-    comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: 'My post 2',
     user_id: 6,
     post_id: 8
   },
   {
-    comment_text: 'Aliquam erat volutpat. In congue.',
+    comment_text: 'My post 3',
     user_id: 3,
     post_id: 10
   },
   {
-    comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    comment_text: 'My post 4',
     user_id: 3,
     post_id: 18
   },
   {
-    comment_text: 'In hac habitasse platea dictumst.',
+    comment_text: 'My post 5',
     user_id: 7,
     post_id: 5
   },
   {
-    comment_text: 'Vivamus vestibulum sagittis sapien.',
+    comment_text: 'My post 6.',
     user_id: 1,
     post_id: 20
   },
   {
-    comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: 'My post 7',
     user_id: 6,
     post_id: 7
   },
   {
-    comment_text: 'Sed vel enim sit amet nunc viverra dapibus.',
+    comment_text: 'My post 8',
     user_id: 7,
     post_id: 4
   },
   {
-    comment_text: 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    comment_text: 'My post 9',
     user_id: 6,
     post_id: 12
   },
   {
-    comment_text: 'Morbi a ipsum.',
+    comment_text: 'My post 10',
     user_id: 6,
     post_id: 20
   },
   {
-    comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    comment_text: 'My post 11',
     user_id: 3,
     post_id: 14
   },
   {
-    comment_text: 'Donec ut mauris eget massa tempor convallis.',
+    comment_text: 'My post 12',
     user_id: 5,
     post_id: 4
   },
   {
     comment_text:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+      'My post 13',
     user_id: 4,
     post_id: 9
   },
   {
     comment_text:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+      'My post 14',
     user_id: 5,
     post_id: 14
   },
   {
-    comment_text: 'Quisque porta volutpat erat.',
+    comment_text: 'My post 15',
     user_id: 6,
     post_id: 2
   },
   {
-    comment_text: 'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    comment_text: 'My post 16',
     user_id: 8,
     post_id: 2
   },
   {
     comment_text:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+      'My post 17',
     user_id: 2,
     post_id: 20
   },
   {
-    comment_text: 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    comment_text: 'My post 18',
     user_id: 4,
     post_id: 11
   },
   {
     comment_text:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+      'My post 19',
     user_id: 5,
     post_id: 13
   },
   {
     comment_text:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+      'My post 20',
     user_id: 9,
     post_id: 16
   },
   {
-    comment_text: 'Curabitur convallis.',
+    comment_text: 'My post 21',
     user_id: 6,
     post_id: 4
   },
   {
-    comment_text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    comment_text: 'My post 22',
     user_id: 4,
     post_id: 10
   },
   {
-    comment_text: 'Morbi non quam nec dui luctus rutrum.',
+    comment_text: 'My post 23',
     user_id: 3,
     post_id: 8
   },
   {
     comment_text:
-      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+      'My post 24',
     user_id: 8,
     post_id: 10
   },
   {
     comment_text:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+      'My post 25',
     user_id: 1,
     post_id: 15
   },
   {
-    comment_text: 'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+    comment_text: 'My post 26',
     user_id: 5,
     post_id: 3
   },
